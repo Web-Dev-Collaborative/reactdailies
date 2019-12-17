@@ -26,6 +26,7 @@ class App extends Component {
 
 
   render() {
+
     let fruitFacts = null;
     if (this.state.showFruits) {
       fruitFacts = (
@@ -43,7 +44,6 @@ class App extends Component {
 
       )
     }
-
 
     return (
       <div className="App">
