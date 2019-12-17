@@ -13,7 +13,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
         <h1>30 days of ReactJS</h1>
-        <h2>Day 3: Color Picker App</h2>
+        <h2>Day ##: AppName</h2>
           <div className="container">
             
             />
