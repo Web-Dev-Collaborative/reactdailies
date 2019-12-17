@@ -1,34 +1,26 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ShoutInput from './ShoutInput';
-import ShoutOutput from './ShoutOutput';
 
-class App extends Component {
-  state = {
-    currentShout: ""
-  }
-
-  updateShoutHandler = (event) => {
-    this.setState({currentShout: event.target.value})
-  }
-
-
-render() {
+function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>30 days of ReactJS</h1>
-        <h2>Day 2: Shout at Me App</h2>
-        <ShoutInput changed={this.updateShoutHandler} />
-        
-        <ShoutOutput shout={(this.state.currentShout).toUpperCase()} />
-    
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
       </header>
     </div>
   );
 }
 
-}
 export default App;
