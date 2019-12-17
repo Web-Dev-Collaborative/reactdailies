@@ -18,4 +18,7 @@ then for each day/project:
 * create new branch for each day/project
 * run `yarn start`
 * do your current day of react
+* run `git add .`
+* run `git commit -m "day ## done"`
+* run `git push`
 * merge branch into your overarching repo
