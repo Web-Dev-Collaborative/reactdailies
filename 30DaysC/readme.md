@@ -14,10 +14,10 @@ Suggestion to get started:
 9. Now, assuming you did this on master branch, your set-up is done for all 30 days.
 
 then for each day/project:
-cd into that day's folder/project
-create new branch for each day/project
-run `yarn start`
-do your current day of react
-merge branch into your own overarching repo
+* cd into that day's folder/project
+* create new branch for each day/project
+* run `yarn start`
+* do your current day of react
+* merge branch into your overarching repo
 
 There will be no set-up the rest of the 30 days because you've just done it all.
