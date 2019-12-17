@@ -9,8 +9,8 @@ run `yarn/npm add/install create-react-app`
 then install CRA dependencies for each day/folder, day01 through day30, by running `yarn create-react-app day##` for each day 01 through 30
 Download this folder/repo, 30DaysC, and overwrite all files in your overarching repository
 run `git add .`
-run `git commit -m "base initial project files uploaded"`
-run `git push (probably will tell you to do the upstream thing if this is your first push, go ahead and do it)`
+run `git commit -m "base project files uploaded"`
+run `git push` (probably will tell you to do the upstream thing if this is your first push, go ahead and do it)
 
 
 then for each day/project:
