@@ -1,4 +1,5 @@
-This is a set of files and folders meant to go with 30 Days of React @ https://www.youtube.com/playlist?list=PLlxurZn3gw7r7JX_JRfmKqY32IOrSFTSB.  You must install dependencies (`yarn/npm add/install create-react-app`) for each day, but the other files are provided here for use with this playlist.  
+This is a set of files and folders meant to go with 30 Days of React @ https://www.youtube.com/playlist?list=PLlxurZn3gw7r7JX_JRfmKqY32IOrSFTSB.<br>
+You must install dependencies (`yarn/npm add/install create-react-app`) for each day, but the other files are provided here for use with this playlist.  
 
 Suggestion to get started: 
 
