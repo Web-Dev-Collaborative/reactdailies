@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "day3",
+=======
+  "name": "day24",
+>>>>>>> de15466c77dab437571f651b13b1122023586d1b
   "version": "0.1.0",
   "private": true,
   "dependencies": {
