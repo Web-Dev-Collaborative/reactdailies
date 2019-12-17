@@ -1,11 +1,4 @@
 {
-<<<<<<< HEAD
-  "name": "day3",
-=======
-  "name": "day4",
->>>>>>> de15466c77dab437571f651b13b1122023586d1b
-  "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",

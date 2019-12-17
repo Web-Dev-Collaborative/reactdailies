@@ -13,7 +13,7 @@ class App extends Component {
         <h2>Day ##: AppName</h2>
           <div className="container">
             
-            />
+            
           </div>
         </header>
       </div>
