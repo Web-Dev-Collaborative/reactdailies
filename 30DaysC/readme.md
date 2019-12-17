@@ -1,11 +1,12 @@
 This is a set of files and folders meant to go with 30 Days of React @ https://www.youtube.com/playlist?list=PLlxurZn3gw7r7JX_JRfmKqY32IOrSFTSB.<br>
-You must install dependencies (`yarn/npm add/install create-react-app`) for each day, but the other files are provided here for use with this playlist.  
+You must install dependencies (`yarn/npm add/install create-react-app`), but the other files are provided here for use with this playlist.  
 
 Suggestion to get started: 
 
-Create your own overarching repository that will hold all 30 days
-cd into repository
-install CRA dependencies for each folder, day01 through day30 by running `yarn create-react-app day##` for each day 01 through 30
+Create your own overarching repository that will hold all 30 days as described above and make sure it's also remote
+cd into overarching repository you just made
+run `yarn/npm add/install create-react-app`
+then install CRA dependencies for each day/folder, day01 through day30, by running `yarn create-react-app day##` for each day 01 through 30
 Download this folder/repo, 30DaysC, and overwrite all files in your overarching repository
 run `git add .`
 run `git commit -m "base initial project files uploaded"`
