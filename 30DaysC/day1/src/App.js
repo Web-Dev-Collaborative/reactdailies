@@ -1,26 +1,39 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Question from './Question/Question'
 
-function App() {
+class App extends Component {
+
+  state = {
+    question: "What is the world's deepest lake?",
+    answer: "Lake Baikal, in Russian Siberia"
+  }
+
+  revealAnswerHandler = (event) => { 
+    this.setState({question: this.state.answer})
+  }
+
+render (){
   return (
     <div className="App">
+
       <header className="App-header">
+
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>30 days of ReactJS</h1>
+        <h2>Day 1: Question and Answer App</h2>
+      <Question
+        question={this.state.question}
+        click={this.revealAnswerHandler}
+      />
       </header>
+
     </div>
   );
 }
 
+
+
+}
 export default App;
