@@ -70,7 +70,7 @@ class App extends Component {
         <h1>30 days of ReactJS</h1>
         <h2>Day 6: Thought Log</h2>
           <div className="container">
-            <form onSubmit={(event) => this.addThoughtHandler(event)}>
+            <form onSubmit={(event) => this.addThoughtHandler(event)} >
               <input type="text"
                 className="textfield"
                 placeholder="Type Thought"
